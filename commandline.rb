@@ -21,3 +21,7 @@ ios.close
 print "Enter your name: "
 inp = gets
 puts "Hello #{inp}"
+#get size of string. Chomp will remove newline character
+print "Enter a string: "
+stringToSize = gets.chomp
+puts "The string has #{stringToSize.size} characters"
