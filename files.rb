@@ -32,3 +32,12 @@ puts temp.size
 File.rename 'tempfile', 'tempfile2'
 #closing data stream
 temp.close
+
+#reading from file
+testfile = File.open("testfile.txt")
+#while loop to run through file and print contents line by line
+while line = testfile.gets do
+    puts line
+end
+#close the file
+testfile.close
