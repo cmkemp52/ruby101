@@ -1,3 +1,5 @@
+#This is for learning to manipulate the command line with Ruby
+
 #print does not assign a new line
 print "Apple "
 #manually adds a new line
